@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export const Filter = ({ value, onChange }) {
+export const Filter = ({ value, onChange }) => {
   return (
     <div>
       <label htmlFor="text" className="form-label">
@@ -16,7 +16,7 @@ export const Filter = ({ value, onChange }) {
       </label>
     </div>
   );
-}
+};
 
 Filter.propTypes = {
   value: PropTypes.string.isRequired,
